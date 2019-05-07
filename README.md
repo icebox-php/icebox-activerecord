@@ -4,11 +4,10 @@
 
 by 
 
-* [@kla](https://github.com/kla) - Kien La
-* [@jpfuentes2](https://github.com/jpfuentes2) - Jacques Fuentes
-* [And these terrific Contributors](https://github.com/kla/php-activerecord/contributors)
+* [@mahfuz10](https://github.com/mahfuz10) - Mahfuzur Rahman
+* [And these Contributors](https://github.com/iceboxphp/activerecord/contributors)
 
-<http://www.phpactiverecord.org/> 
+<http://www.torovin.com/>
 
 ## Introduction ##
 A brief summarization of what ActiveRecord is:
@@ -164,6 +163,13 @@ $post->delete();
 # DELETE FROM `posts` WHERE id=1
 echo $post->title; # 'New real title'
 ```
+
+## Previously maintained by ##
+* [@kla](https://github.com/kla) - Kien La
+* [@jpfuentes2](https://github.com/jpfuentes2) - Jacques Fuentes
+* [And these Contributors](https://github.com/jpfuentes2/php-activerecord/contributors)
+
+<http://www.phpactiverecord.org/> or <http://www.phpactiverecord.xyz/>
 
 ## Contributing ##
 
