@@ -22,12 +22,12 @@ class OciAdapterTest extends AdapterTest
 
 	public function test_datetime_to_string()
 	{
-		$this->assert_equals('01-Jan-2009 01:01:01 AM',$this->conn->datetime_to_string(date_create('2009-01-01 01:01:01 EST')));
+		$this->assert_equals('01-Jan-2009 01:01:01 AM',$this->conn->datetime_to_string(date_create('2009-01-01 01:01:01')));
 	}
 
 	public function test_date_to_string()
 	{
-		$this->assert_equals('01-Jan-2009',$this->conn->date_to_string(date_create('2009-01-01 01:01:01 EST')));
+		$this->assert_equals('01-Jan-2009',$this->conn->date_to_string(date_create('2009-01-01 01:01:01')));
 	}
 
 	public function test_insert_id() {}
