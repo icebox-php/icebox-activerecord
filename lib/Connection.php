@@ -67,7 +67,11 @@ abstract class Connection
 	 * Database's datetime format
 	 * @var string
 	 */
-	static $datetime_format = 'Y-m-d H:i:s T';
+	 // removed T. Because I get this mysql error:
+	 // Invalid datetime format: 1292 Incorrect datetime value:
+	 // '2019-05-08 07:13:12 UTC' for column 'updated_at'
+	 // static $datetime_format = 'Y-m-d H:i:s T';
+	 static $datetime_format = 'Y-m-d H:i:s';
 	/**
 	 * Default PDO options to set for each connection.
 	 * @var array
